@@ -4,6 +4,8 @@
 
 ## Environment
 
+* OS X El Capitan
+    * `10.11.4（15E65）`
 * Xcode 7.3.1
     * `Version 7.3.1 (7D1014)`
 * Swift 2.2
