@@ -5,4 +5,6 @@
 ## Environment
 
 * Xcode 7.3.1
+    * `Version 7.3.1 (7D1014)`
 * Swift 2.2
+    * `Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)`
