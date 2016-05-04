@@ -12,5 +12,9 @@
 ## How to running
 
 ```sh
+# Run with filename
 $ swift Chapter-01/about-array.swift
+
+# Run all
+$ find . -d 2 -name "*.swift" -print | xargs -I {} swift {}
 ```
