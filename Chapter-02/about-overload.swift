@@ -13,7 +13,7 @@ func mySwap(inout a: String, inout _ b: String) {
 }
 
 // 外部引数名を使ったオーバーロード関数
-func mySwap(inout little a:Int, inout great b: Int) {
+func mySwap(inout little a: Int, inout great b: Int) {
     if a > b {
         let tmp = a; a = b; b = tmp
     }
