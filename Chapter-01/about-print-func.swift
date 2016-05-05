@@ -4,4 +4,4 @@ print(str)
 
 print(6, 2014, "林檎")
 
-print(6, 2014, "林檎", separator:"; ")
+print(6, 2014, "林檎", separator: "; ")

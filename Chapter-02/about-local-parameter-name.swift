@@ -1,6 +1,6 @@
 // hとwが関数内の仮引数になる
 // 内部引数名またはローカル引数名(local parameter name)と呼ぶ
-func area(height h:Double, width w:Double) -> Double {
+func area(height h: Double, width w: Double) -> Double {
     return h * w
 }
 
@@ -12,14 +12,14 @@ print(a)
 // let a = area(width: 12.5, height: 10.0)
 
 // 外部引数名を_で捨てて省略
-func areaNoKeyword(h: Double, _ w:Double) -> Double {
+func areaNoKeyword(h: Double, _ w: Double) -> Double {
     return h * w
 }
 let ank = areaNoKeyword(10.0, 12.5)
 print(ank)
 
 // 内部引数名を_で捨てて省略
-func compare(a:Int, _ b:Int, option _:Bool) -> Bool {
+func compare(a: Int, _ b: Int, option _: Bool) -> Bool {
     return a > b
 }
-_ = compare(10, 8, option:true)
+_ = compare(10, 8, option: true)

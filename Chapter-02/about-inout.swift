@@ -1,4 +1,4 @@
-func mySwap(inout a:Int, inout _ b:Int) {
+func mySwap(inout a: Int, inout _ b: Int) {
     let tmp = a; a = b; b = tmp
 }
 
