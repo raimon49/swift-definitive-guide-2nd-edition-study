@@ -1,6 +1,7 @@
 // ツェラーの公式
 // 年月日から曜日（日曜:0, 月曜:1〜）を返す
 // XXX: var parameterと--演算子はSwift 3.xで削除予定のため関数内ローカル変数に変更
+@warn_unused_result
 func dayOfWeek(month m: Int, day d: Int, year y: Int = 2016) -> Int {
     var in_m = m, in_y = y
     if in_m < 3 {
