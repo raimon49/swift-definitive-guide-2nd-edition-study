@@ -1,5 +1,7 @@
 # swift-definitive-guide-2nd-edition-study
 
+[![Build Status](https://travis-ci.org/raimon49/swift-definitive-guide-2nd-edition-study.svg?branch=master)](https://travis-ci.org/raimon49/swift-definitive-guide-2nd-edition-study)
+
 『詳解Swift第2版』に登場するコードの写経や学習用
 
 ## Environment
