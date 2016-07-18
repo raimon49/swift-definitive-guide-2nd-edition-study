@@ -5,4 +5,5 @@ install:
   - ./install_swiftlint.sh
 
 script:
+  - swiftlint version
   - swiftlint
