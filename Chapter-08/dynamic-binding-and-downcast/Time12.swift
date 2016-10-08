@@ -1,4 +1,4 @@
-class Time12 : Time, CustomStringConvertible {
+class Time12: Time, CustomStringConvertible {
     var pm: Bool
 
     init(hour: Int, min: Int, pm: Bool) {
@@ -25,4 +25,3 @@ class Time12 : Time, CustomStringConvertible {
         return toString() + " " + (pm ? "PM" : "AM")
     }
 }
-

@@ -37,7 +37,7 @@ print(t1.toString()) // 13:20
 t1.inc()
 print(t2.toString()) // 13:21 （参照型であることが分かる）
 
-class Time2 : Time, CustomStringConvertible {
+class Time2: Time, CustomStringConvertible {
     var pm: Bool
 
     init(hour: Int, min: Int, pm: Bool) {
