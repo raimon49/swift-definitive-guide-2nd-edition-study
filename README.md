@@ -41,3 +41,8 @@ $ swift Chapter-01/about-array.swift
 # Run all
 $ find . -d 2 -name "*.swift" -print | xargs -I {} swift {}
 ```
+
+## Require manual compiling
+
+* [Chapter-01/compile-with-multiple-source](Chapter-01/compile-with-multiple-source)
+* [Chapter-08/dynamic-binding-and-downcast](Chapter-08/dynamic-binding-and-downcast)
