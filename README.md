@@ -13,7 +13,7 @@
 * [CHAPTER05](Chapter-05) 基本的なデータ型
 * [CHAPTER06](Chapter-06) パターン
 * [CHAPTER07](Chapter-07) 演算子
-* CHAPTER08 クラスと継承
+* [CHAPTER08](Chapter-08) クラスと継承
 * CHAPTER09 メモリ管理
 * CHAPTER10 プロトコル
 * CHAPTER11 拡張
