@@ -6,7 +6,7 @@
 
 set -e
 
-SWIFTLINT_VERSION="0.11.1"
+SWIFTLINT_VERSION="0.13.2"
 SWIFTLINT_PKG_PATH="/tmp/SwiftLint.pkg"
 SWIFTLINT_PKG_URL="https://github.com/realm/SwiftLint/releases/download/${SWIFTLINT_VERSION}/SwiftLint.pkg"
 

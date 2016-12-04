@@ -1,2 +1,6 @@
 disabled_rules:
   - variable_name
+  - type_name
+  - trailing_comma
+  - implicit_getter
+  - syntactic_sugar
