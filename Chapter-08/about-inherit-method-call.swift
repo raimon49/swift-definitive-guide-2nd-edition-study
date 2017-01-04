@@ -18,8 +18,8 @@ class A {
     func myclass() {
         // dynamicTypeで実行中のインスタンスが実際にどのクラスか動的に調べてアクセス
         // ただしSwift 2.3/3.0以降dynamicTypeキーワードはdeprecatedであるためtype(of:)を使う
-        // type(of: self)
-        // self.dynamicType
+        // type(of: self).who()
+        // self.dynamicType.who()
     }
 }
 
