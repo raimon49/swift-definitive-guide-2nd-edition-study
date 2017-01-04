@@ -15,7 +15,7 @@ class DayOfMonth: CustomStringConvertible {
     class func twoDigits(n: Int) -> String {
         // 2桁ゼロ埋め文字列で表現するクラスメソッド
         let i = n % 100
-        if (i < 10) {
+        if i < 10 {
             return "0\(n)"
         }
 
